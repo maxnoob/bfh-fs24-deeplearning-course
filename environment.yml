@@ -1,0 +1,17 @@
+name: first-env
+channels:
+  - conda-forge
+  - rapidsai
+  - nvidia
+  - defaults
+dependencies:
+  - python=3.8
+  - pandas
+  - tensorflow
+  - ca-certificates
+  - openssl
+  - jupyter
+  - certifi
+  - seaborn
+  - scikit-learn
+prefix: /Users/fabianburki/miniconda3/envs/first-env
